@@ -9,7 +9,7 @@
       <div class="col-3">222</div>
     </div>
     <div>
-      大麦网提交测试
+      测试
     </div>
   </v-container>
 </template>
