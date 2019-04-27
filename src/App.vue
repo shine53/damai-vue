@@ -1,36 +1,32 @@
 <template>
-  <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span> 
-      </v-toolbar-title>
-      
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-toolbar>
+  <v-app id="app">
+    <!-- 头部 -->
+    <Header/>
 
-    <v-content>
-      <HelloWorld/>
-      
+    <v-content id="content">
+      <DmProcess/>
+      <!-- <HelloWorld/> -->
     </v-content>
-   
+
+    <!-- 底部 -->
+    <Footer/>
   </v-app>
 </template>
 
 <script>
 // import $ from 'jquery'
 import HelloWorld from './components/HelloWorld'
+// 交易流程
+import Process from './pages/Process'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DmProcess:Process,
+    // HelloWorld
+  
   },
   data () {
     return {
@@ -42,3 +38,14 @@ export default {
   },
 }
 </script>
+<style lang="scss">
+
+#app{
+  width: 100%;margin: 0 auto;
+}
+#content{
+margin: 0 auto;width: 100%;
+min-width: 1500px;max-width: 1500px;
+border:1px rgb(86, 129, 134) solid;
+}
+</style>
