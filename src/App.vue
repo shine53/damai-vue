@@ -8,14 +8,14 @@
       <!-- <HelloWorld/> -->
     </v-content>
 
-    <!-- 底部 -->
+    <!-- 底部 --> 
     <Footer/>
   </v-app>
 </template>
 
 <script>
 // import $ from 'jquery'
-import HelloWorld from './components/HelloWorld'
+// import HelloWorld from './components/HelloWorld'
 // 交易流程
 import Process from './pages/Process'
 
@@ -42,6 +42,7 @@ export default {
 
 #app{
   width: 100%;margin: 0 auto;
+  background-color: #fff;
 }
 #content{
 margin: 0 auto;width: 100%;
