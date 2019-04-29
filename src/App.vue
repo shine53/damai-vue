@@ -1,7 +1,7 @@
 <template>
   <v-app id="app">
     <!-- 头部 -->
-    <Header/>
+    <Header></Header>
 
     <v-content id="content">
       <DmProcess/>
@@ -40,13 +40,19 @@ export default {
 </script>
 <style lang="scss">
 
+ul,li{
+  list-style: none;
+}
+input[type="text"] {
+  border: 1px solid rgb(197, 194, 194);
+}
 #app{
   width: 100%;margin: 0 auto;
-  background-color: #fff;
+  // background-color: #fff;
 }
 #content{
 margin: 0 auto;width: 100%;
-min-width: 1500px;max-width: 1500px;
-border:1px rgb(86, 129, 134) solid;
+min-width: 1190px;max-width: 1500px;
+// border:1px rgb(86, 129, 134) solid;
 }
 </style>

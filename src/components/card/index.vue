@@ -1,19 +1,22 @@
 <!--  -->
 <template>
   <div class="card">
-    <h3 class="m-3">身份证电子票</h3>
+    <h3 class="p-2 text-muted">身份证电子票</h3>
     <div class="m-3">
       <form action>
-        <div>
+        <div class="m-3">
           用户姓名：
-          <input type="text" class="border">
+          <input type="text">
         </div>
-        <div>
-          手机号码： 
-          <input type="text" class="border">
+        <div class="m-3">
+          手机号码：
+          <input type="text">
         </div>
       </form>
-      <div>温馨提示:请持购票时所填写的二代身份证到自助机换票</div>
+      <div class="tips ml-3">
+        <i class="fa fa-exclamation-circle color-blue"></i>
+        温馨提示:请持购票时所填写的二代身份证到自助机换票
+      </div>
     </div>
   </div>
 </template>
@@ -51,4 +54,9 @@ export default {
 </script>
 <style lang='scss' scoped>
 //@import url(); 引入公共css类
+
+//温馨提示
+.tips > i {
+  color: rgb(47, 145, 236);
+}
 </style>
