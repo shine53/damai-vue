@@ -1,58 +1,16 @@
 <template>
-  <v-app id="app">
-    <!-- 头部 -->
-    <Header></Header>
-
-    <v-content id="content">
-      <DmProcess/>
-      <!-- <HelloWorld/> -->
-    </v-content>
-
-    <!-- 底部 --> 
-    <Footer/>
-  </v-app>
+  <div id="app">
+    <!-- <div id="nav">
+      <router-link to="/">register</router-link> |
+      <router-link to="/about">About</router-link>
+    </div> -->
+    <router-view/>
+  </div>
 </template>
 
-<script>
-// import $ from 'jquery'
-// import HelloWorld from './components/HelloWorld'
-// 交易流程
-import Process from './pages/Process'
-
-
-
-export default {
-  name: 'App',
-  components: {
-    DmProcess:Process,
-    // HelloWorld
-  
-  },
-  data () {
-    return {
-      //
-    }
-  },
-  methods: {
-    
-  },
-}
-</script>
 <style lang="scss">
+@import './static/css/H-ui.reset.css';
+@import './static/css/style.css';
 
-ul,li{
-  list-style: none;
-}
-input[type="text"] {
-  border: 1px solid rgb(197, 194, 194);
-}
-#app{
-  width: 100%;margin: 0 auto;
-  // background-color: #fff;
-}
-#content{
-margin: 0 auto;width: 100%;
-min-width: 1190px;max-width: 1500px;
-// border:1px rgb(86, 129, 134) solid;
-}
+
 </style>

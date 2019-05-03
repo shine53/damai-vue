@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?q4mo4p');
+  src:  url('../fonts/icomoon.eot?q4mo4p#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?q4mo4p') format('truetype'),
+    url('../fonts/icomoon.woff?q4mo4p') format('woff'),
+    url('../fonts/icomoon.svg?q4mo4p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e90b";
+}
+.icon-star1:before {
+  content: "\e90c";
+}
+.icon-wechat:before {
+  content: "\e90d";
+  color: #7bb32e;
+}
+.icon-lock-closed:before {
+  content: "\e90e";
+}
+.icon-play_arrow:before {
+  content: "\e900";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e901";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e902";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e903";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e904";
+}
+.icon-arrow_drop_up:before {
+  content: "\e909";
+}
+.icon-arrow_drop_down:before {
+  content: "\e90a";
+}
+.icon-message:before {
+  content: "\e90f";
+}
+.icon-live_tv:before {
+  content: "\e906";
+}
+.icon-chat_bubble_outline:before {
+  content: "\e907";
+}
+.icon-code:before {
+  content: "\e905";
+}
+.icon-embed:before {
+  content: "\e905";
+}
+.icon-files-empty:before {
+  content: "\e925";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-wechat1:before {
+  content: "\e910";
+}
+.icon-qq:before {
+  content: "\e908";
+}
+.icon-location:before {
+  content: "\e912";
+}
+.icon-lock-closed1:before {
+  content: "\e911";
+}
