@@ -10,10 +10,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-     
-    },
-    {
-      path: '/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
