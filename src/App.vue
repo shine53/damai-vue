@@ -12,5 +12,7 @@
 @import './static/css/H-ui.reset.css';
 @import './static/css/style.css';
 
+.color-red {color: red !important;}
+.color-green {color: green !important;}
 
 </style>

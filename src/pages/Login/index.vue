@@ -1,6 +1,6 @@
 <template lang="html">
 	<div class="login">
-      <Common :title="navTitle">
+      <CommonPage :title="navTitle">
 		  <div class="login-section">
 		  	<div class="row">
 		  		<div class="col-6">
@@ -86,8 +86,8 @@
 									<li><input type="checkbox" name="" value="">下次自动登陆</li>
 									<li>
 										<ul class="d-flex">
-											<li><a href="#">忘记密码？</a></li>
-											<li class="color-red"><router-link to="/register">立即注册</router-link> </li>
+											<li>忘记密码？</li>
+											<li><router-link  class="color-red" to="/register">立即注册</router-link></li>
 										</ul>
 									</li>
 								</ul>
@@ -98,12 +98,12 @@
 				</div>
 		  	</div>
 		  </div>
-      </Common>
+      </CommonPage>
     </div>
 </template>
 
 <script>
-import Common from '@/components/common'
+import CommonPage from '@/components/commonPage'
 
 export default {
 	name: 'login',
@@ -117,12 +117,12 @@ export default {
 	  }
 	},
 	components: {
-	 Common
+	 CommonPage
 	}
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss">
 .login-section {
 	padding: 80px 50px;
 }
@@ -131,10 +131,9 @@ img {
 	width: 100%;
 	height: 100%;
 }
->>>.form-list {
+.form-list {
 	padding: 80px 20px 20px;
 }
-.color-red {color: red;}
 .login-form {
 	padding: 5px;
 }

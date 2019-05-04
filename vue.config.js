@@ -3,6 +3,7 @@
 // 这里只列一部分，具体配置参考文档
 const webpack = require('webpack')
 
+
 module.exports = {
   configureWebpack: {
     plugins: [
@@ -56,7 +57,7 @@ module.exports = {
     // 配置多个代理
     proxy: {
       "/api": {
-        target: "<url>",
+        target: "http://localhost:3000",
         ws: true,
         changeOrigin: true
       },

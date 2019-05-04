@@ -60,7 +60,7 @@
 
 <script>
 export default {
-	name:'common',
+	name:'commonPage',
 	props: ['title']
 }
 </script>
