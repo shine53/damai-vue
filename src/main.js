@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import './plugins/vuetify'
 import App from './App.vue'
-import Process from './pages/Process/index'
 import router from './router'
 import store from './store'
 import $ from 'jquery'
