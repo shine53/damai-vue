@@ -4,7 +4,7 @@
     <Header></Header>
 
     <v-content id="content">
-      <DmProcess/>
+      
       <!-- <HelloWorld/> -->
     </v-content>
 
@@ -16,15 +16,14 @@
 <script>
 // import $ from 'jquery'
 // import HelloWorld from './components/HelloWorld'
-// 交易流程
-import Process from './pages/Process'
+
 
 
 
 export default {
   name: 'App',
   components: {
-    DmProcess:Process,
+   
     // HelloWorld
   
   },
